@@ -1,0 +1,41 @@
+                              // introduction to java
+ how java code is executed in java?
+
+ first of all we write a code which is in .javafile  .after it compiler compile the whole code and make a
+ .class file which is also known as byte code then java interpreter execute this code line by line and
+ convert it into machine code also known as(binary form);
+
+ 1: our writen code is not directly run to run this we need jvm(java virtual machine)
+ 2: thats why java is also known as platform independent.
+ why java is platform independent?
+
+ 1:  in c and c++ source code is directly converted into machine readable code .
+ 2:  while in java first source code is converted into byte code and then into
+ machine readable code (binary form).
+ 3: byte code can run on all operating systems.
+ 4:  so when java compiler converts source code into byte code then byte code runs
+ on any operating system.
+                        that's why java is platform independent.
+
+to run java program we need a environment lets discuss come terms and tools that are used in java
+
+what is JDK;
+1: jdk is known as java development kit. it provide environment to run java program
+2: it is package that includes
+    * development tool.
+    * JRE (java runtime environment) to execute your program.
+    * a compiler (javaC).
+    * archiver  (jar).
+    * docs generator (java doc).
+    * interpreter.
+
+
+what is java compiler?
+A Java compiler is a program that takes the text file work of a developer and compiles it into a platform-independent
+Java file. Java compilers include the Java Programming Language Compiler (javac),
+ the GNU Compiler for Java (GCJ), the Eclipse Compiler for Java ( ECJ ) and Jikes .
+
+what is java interpreter?
+The Java interpreter translates Java bytecode (.class files) into code that the operating system can comprehend.
+
+
